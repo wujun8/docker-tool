@@ -5,7 +5,7 @@ MAINTAINER https://github.com/wujun8/docker-tool
 USER root
 
 ADD *.sh /
+ADD res/dot/. /root/
 RUN sh /build.sh
 
-COPY /ws/ /usr/bin/
-ADD res/dot/. /root/
+

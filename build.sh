@@ -38,3 +38,5 @@ mkdir /ws && cd /ws
 cd ..
 
 rm -f /build.sh
+
+cp /ws/ /usr/bin/
