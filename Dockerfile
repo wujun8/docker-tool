@@ -6,3 +6,6 @@ USER root
 
 ADD *.sh /
 RUN sh /build.sh
+
+COPY /ws/ /usr/bin/
+ADD res/dot/. /root/
