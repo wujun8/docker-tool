@@ -39,4 +39,4 @@ cd ..
 
 rm -f /build.sh
 
-cp -r /ws/ /usr/bin/
+cp /ws/* /usr/bin/

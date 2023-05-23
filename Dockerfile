@@ -7,5 +7,5 @@ USER root
 ADD *.sh /
 ADD res/dot/. /root/
 RUN sh /build.sh
-
+RUN sh /build-bash.sh
 
